@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta charset="UTF-8">
+    <meta  content="text/html; charset=windows-1252"  http-equiv="content-type">
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title></title>
+    <meta  name="description"  content="">
+    <!-- Mobile viewport optimized -->
+    <meta  name="viewport"  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    <link  href="../static/bootstrap.min.css"  rel="stylesheet">
+    <link  href="../static/bootstrap-glyphicons.css"  rel="stylesheet">
+    <!-- Custom CSS -->
+    <link  href="../static/styles.css"  rel="stylesheet">
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script  src="../static/modernizr-2.6.2.min.js"></script>
+    <style type="text/css">
+    	.copy-left { display: inline-block; text-align: right; margin: 0px; -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH"; }	
+    </style>
+  </head>
+  <body>
+    <div  class="container-fluid">
+      <div  class="navbar navbar-fixed top">
+        <div  class="container"> <a  href="#"  class="navbar-brand" id="top">Result Analysis</a>
+        </div>
+        <!-- end navbar container --> </div>
+      <!-- end navbar-fixed top -->
+      <form  method="post"  action="confirm">
+        <div  class="container">
+        <table class="table table-hover">
+                 <h4 >Result Review</h4>
+				<tr>
+					<td><p>Enter the RollNo:</p></td>
+               <td><input  placeholder="First 4 digits(13TH)"  name="first_part" class="form-control" required	
+               type="text"/></td>			
+				</tr>        
+        		<tr>
+				<td><p>Enter the Starting Number:</p></td>
+				<td><input  placeholder="Eg:0000"  name="start_num" class="form-control" required
+               type="number"/></td>        		
+        		</tr>
+        		<tr>
+					<td><p>Enter the Ending Number:</p></td>
+					<td><input  placeholder="Eg:0541"  name="end_num" class="form-control" required
+               type="number"></td>        		
+        		</tr>
+        		<tr>
+					<td><p>Enter the Semester:</p></td>
+					<td><select  class="divider" name="sem">
+              <option  value="First"  name="first">First</option>
+              <option  value="Second"  name="second">Second</option>
+              <option  value="Third"  name="third">Third</option>
+              <option  value="Fourth"  name="fourth">Fourth</option>
+              <option  value="Fifth"  name="fifth">Fifth</option>
+              <option  value="Sixth"  name="sixth">Sixth</option>
+              <option  value="Seventh"  name="seventh">Seventh</option>
+              <option  value="eighth"  name="eighth">Eighth</option>
+            </select></td>        		
+        		</tr>
+        		<tr>
+					<td><p>Enter the Department:</p></td>
+					<td><input  placeholder="BTHIT for Information Technology" class="form-control" name="dept" required
+               type="text"></td>        		
+        		</tr>
+        </table>
+          <button  type="submit"  class="btn btn-primary pull-right active"  id="submit-button">Submit</button>
+        </div>
+      </form>
+      <footer>
+        <div  class="container">
+          <div  class="row">
+            <div  class="col-sm-2">
+              <h6>Copyleft <span class="copy-left">&copy;</span> Arvind & Yogaraj	</h6>
+            </div>
+            <!-- end col-sm-2-->
+            <div  class="col-sm-4">
+              <h6>About us</h6>
+              <p>We both are budding developers (frontend & backend). We are pursuing <b>Information Technology</b> in Sri Manakula Vinayagar Engineering College, Puducherry.</p>
+            </div>
+            <!-- end col-sm-4-->
+            <div  class="col-sm-2">
+              <h6>Navigation</h6>
+              <ul  class="unstyled">
+                <li><a  href="#">Home</a></li>
+                <li><a  href="#">Services</a></li>
+                <li><a  href="#">Products</a></li>
+                <li><a  href="#">Contact us</a></li>
+              </ul>
+            </div>
+            <!-- end col-sm-2-->
+            <!--<div  class="col-sm-2">
+              <h6>Follow us</h6>
+              <ul  class="unstyled">
+                <li><a  href="#">Twitter</a></li>
+                <li><a  href="#">Facebook</a></li>
+                <li><a  href="#">Google plus</a></li>
+              </ul>
+            </div>-->
+            <!-- end col-sm-2-->
+            <div  class="col-sm-2">
+              <h6>Backend coded with &hearts;
+                by Yogaraj</h6>
+            </div>
+          </div>
+        </div>
+        <!-- end container-footer--> </footer>
+      <!-- end footer--> </div>
+    <!-- end container-fluid -->
+    <!-- First try for the online version of jQuery-->
+    <script  src="http://code.jquery.com/jquery.js"></script>
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>window.jQuery || document.write('<script src="../static/jquery-1.8.2.min.js"><\/script>')</script>
+    <!-- Bootstrap JS -->
+    <script  src="../static/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script  src="../static/script.js"></script>
+  </body>
+</html>
