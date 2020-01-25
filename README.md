@@ -1,2 +1,8 @@
 # Automation-of-result-analysis
-Here, I've used plotly and python to automate the result analysis of Pondicherry University. I've provided the collected results under the folder /results/.
+Result analysis is tedious job which involves collecting result data of all students across all colleges affiliated to a university.
+
+This project solves the above mentioned problem.
+
+#### Technologies used
+`Python` `Flask` `selenium` 
+`Plotly`
