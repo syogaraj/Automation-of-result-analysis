@@ -3,6 +3,6 @@ Result analysis is tedious job which involves collecting result data of all stud
 
 This project solves the above mentioned problem.
 
-#### Technologies used
+#### Tech Stack
 `Python` `Flask` `selenium` 
 `Plotly`
